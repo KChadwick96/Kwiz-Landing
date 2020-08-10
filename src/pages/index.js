@@ -1,4 +1,5 @@
 import React from "react"
+import { Link, Title, Meta } from "react-head"
 
 import "./index.css"
 
@@ -24,6 +25,27 @@ const Navbar = () => (
 const Landing = () => {
   return (
     <div className="landing">
+      <Link rel="icon" href="/img/icons/favicon.ico" />
+      <Link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/img/icons/apple-touch-icon.png"
+      />
+      <Link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/img/icons/favicon-32x32.png"
+      />
+      <Link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/img/icons/favicon-16x16.png"
+      />
+      <Title>Kwiz</Title>
+      <Meta name="description" content="Kwiz - By Ninja Labs" />
+
       <Navbar />
 
       <section className="landing__section--main">
