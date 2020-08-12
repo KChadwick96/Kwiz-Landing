@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "kwiz-prod-kwizlandingsite4dffe659-5dkp21qotkhw",
+        bucketName: "kwizgame.com",
       },
     },
   ],
