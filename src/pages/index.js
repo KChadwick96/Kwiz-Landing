@@ -14,7 +14,7 @@ const Navbar = () => (
     <div className="landing-header__wrapper">
       <img src="/img/logo.png" alt="Kwiz" style={{ maxWidth: "100px" }} />
       <div>
-        <a className="button" href="https://kwizgame.com/register">
+        <a className="button" href="https://app.kwizgame.com/register">
           Sign up
         </a>
       </div>
@@ -63,7 +63,7 @@ const Landing = () => {
               <p className="--margin-bottom-large">
                 Create your quizzes, start a game and invite your friends.
               </p>
-              <a className="button" href="https://kwizgame.com/register">
+              <a className="button" href="https://app.kwizgame.com/register">
                 Get started
               </a>
             </div>
