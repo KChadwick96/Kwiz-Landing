@@ -76,25 +76,25 @@ const Landing = () => {
 
       <section className="landing__section landing__section--secondary">
         <div className="container">
-          <div className="landing__secondary-content">
-            <div style={{ flex: "1" }}>
-              <h2>Features</h2>
+          <div
+            className="landing__secondary-content"
+            style={{ maxWidth: "450px" }}
+          >
+            <h2>Features</h2>
 
-              <h3 variant="display-three">Question Images!</h3>
-              <p className="--margin-bottom-larger">
-                You can now add images to your questions! Want to do a "Guess
-                that flag" round? Simply enter the image adress for your
-                questions for your players to see
-              </p>
+            <h3 variant="display-three">Question Images!</h3>
+            <p className="--margin-bottom-largest">
+              You can now add images to your questions! Want to do a "Guess that
+              flag" round? Simply enter the image adress for your questions for
+              your players to see
+            </p>
 
-              <h3>Better Results</h3>
-              <p>
-                Once the last player has submitted their answer, the game will
-                display the results for that question. The players are kept up
-                to date with who's getting questions right and whos struggling
-              </p>
-            </div>
-            <div style={{ flex: "1" }}></div>
+            <h3>Better Results</h3>
+            <p>
+              Once the last player has submitted their answer, the game will
+              display the results for that question. The players are kept up to
+              date with who's getting questions right and whos struggling
+            </p>
           </div>
         </div>
       </section>

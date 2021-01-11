@@ -25,19 +25,41 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: var(--unit-medium);
+}
+
+div,
+footer,
+input {
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: "Rubik", sans-serif;
   font-size: 60px;
+  line-height: 60px;
   font-weight: 600;
   margin-top: 0;
-  margin-bottom: var(--unit-large);
+  margin-bottom: var(--unit-larger);
 }
 
 h2 {
   font-family: "Rubik", sans-serif;
   font-size: 42px;
+  line-height: 42px;
   font-weight: 600;
   margin-top: 0;
+  margin-bottom: var(--unit-large);
+}
+
+h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: var(--unit-medium);
 }
 
 .container {
@@ -92,8 +114,6 @@ h2 {
 .landing__secondary-content {
   color: var(--color-black);
   padding: var(--unit-largest) 0;
-  display: flex;
-  align-items: center;
   color: black;
 }
 
@@ -116,7 +136,7 @@ h2 {
 
 .device {
   width: 360px;
-  height: 735px;
+  height: 712px;
   padding: 12px;
   border-radius: 28px;
   background: #f6f9fc;
@@ -140,4 +160,16 @@ h2 {
   .landing__main-device {
     display: none;
   }
+}
+
+.--margin-bottom-large {
+  margin-bottom: var(--unit-large);
+}
+
+.--margin-bottom-larger {
+  margin-bottom: var(--unit-larger);
+}
+
+.--margin-bottom-largest {
+  margin-bottom: var(--unit-largest);
 }
